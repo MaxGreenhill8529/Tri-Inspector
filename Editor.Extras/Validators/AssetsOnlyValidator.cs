@@ -30,7 +30,7 @@ namespace TriInspector.Validators
                 return TriValidationResult.Valid;
             }
 
-            return TriValidationResult.Error($"{obj} is not as asset.");
+            return TriValidationResult.Error($"{obj} is not an asset.");
         }
     }
 }
